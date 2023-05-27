@@ -70,14 +70,14 @@
       header {
         background-color: #ff6600;
         color: #fff;
-        padding: 20px;
+        padding: 30px;
         text-align: center;
-        font-size: 24px;
+        font-size: 36px;
       }
       nav {
         background-color: #333;
         color: #fff;
-        padding: 10px;
+        padding: 26px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -86,7 +86,7 @@
         color: #fff;
         text-decoration: none;
         margin: 0 10px;
-        font-size: 18px;
+        font-size: 28px;
         font-weight: bold;
       }
       nav a:hover {
@@ -101,7 +101,7 @@
         margin-bottom: 20px;
       }
       section p {
-        font-size: 18px;
+        font-size: 24px;
         line-height: 1.5;
       }
       footer {
@@ -130,7 +130,7 @@ h2 {
 }
 
 label {
-  font-size: 16px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -138,18 +138,18 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
-  border-radius: 5px;
+  margin-bottom: 40px;
+  border-radius: 10px;
   border: none;
   background-color: #e7e7e7;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 input[type="submit"] {
   background-color: #ff6f00;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 24px;
+  padding: 20px 40px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -173,13 +173,17 @@ input[type="submit"]:hover {
   font-style: italic;
   font-weight: bold;
   color: #ff8f00;
-  font-size: 24px;
+  font-size: 34px;
   list-style-type:disc;
   padding-left: 0;
   list-style-position: inside;
   list-style-size: 10px;
+  
 }
 #explanation {
+  text-align: justify;
+}
+#explanation2 {
   text-align: justify;
 }
 #services3 li a {
@@ -200,7 +204,7 @@ input[type="submit"]:hover {
   
 }
 #explanation4list  :hover {
-  color: orange; 
+  color: #ad0668; 
 }
 #explanation4 {
   text-align: justify;
@@ -212,11 +216,13 @@ input[type="submit"]:hover {
   list-style-type: disc;
   font-weight: bold;
   font-style: italic;
-  font-size: 20px;
+  font-size: 26px;
+  text-align: justify;
   
 }
 #explanation5list  :hover {
-  color: orange; 
+  color: #ad0668; 
+  
 }
 #explanation5 {
   text-align: justify;
@@ -228,7 +234,8 @@ input[type="submit"]:hover {
   list-style-type:disc;
   font-weight: bold;
   font-style: italic;
-  font-size: 20px;
+  font-size: 26px;
+  text-align: justify;
   
 }
 .button {
@@ -261,7 +268,7 @@ input[type="submit"]:hover {
   background-color: rgb(130, 127, 127); /* Set a background color */
   color: #ff6600; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
+  padding: 25px; /* Some padding */
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
